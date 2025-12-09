@@ -83,9 +83,9 @@ Frontend will run at:
 http://localhost:5173
 
 
-Example API Calls
+***Example API Calls***
 
-You can test APIs using curl or Postman.
+You can test APIs using  Postman.
 
 1. Upload PDF
 
