@@ -115,9 +115,6 @@ Endpoint:
 GET /documents
 
 
-curl:
-
-curl http://localhost:4000/documents
 
 
 3. Download a Document
@@ -127,9 +124,6 @@ Endpoint:
 GET /documents/:id
 
 
-curl:
-
-curl -o file.pdf http://localhost:4000/documents/1
 
 
 4. Delete a Document
@@ -139,7 +133,4 @@ Endpoint:
 DELETE /documents/:id
 
 
-curl:
-
-curl -X DELETE http://localhost:4000/documents/1
 
