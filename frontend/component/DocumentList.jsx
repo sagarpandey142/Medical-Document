@@ -42,7 +42,6 @@ const DocumentList = ({ documents, onRefresh }) => {
               <tr>
                 <th style={thStyle}>File Name</th>
                 <th style={thStyle}>Size</th>
-                <th style={thStyle}>Uploaded</th>
                 <th style={thStyle}>Actions</th>
               </tr>
             </thead>
@@ -54,9 +53,7 @@ const DocumentList = ({ documents, onRefresh }) => {
                   <td style={tdStyle}>
                     {Math.round(doc.filesize / 1024)} KB
                   </td>
-                  <td style={tdStyle}>
-                    {new Date(doc.created_at).toLocaleString()}
-                  </td>
+                 
                   <td style={tdStyle}>
                     <button
                       onClick={() =>
